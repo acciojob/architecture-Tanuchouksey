@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        td img {
+            width: 180px;
+            height: auto;
+        }
+        td {
+            vertical-align: middle;
+        }
+        .text-content {
+            text-align: left;
+            padding-left: 20px;
+        }
+        .first-column,
+        .last-column {
+            width: 200px;
+        }
+        .middle-column {
+            width: 600px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header>
+        <h1>Architectural Information</h1>
+        <p>Explore the beauty and intricacy of architectural designs.</p>
+    </header>
+    <div class="imageContainer">
+        <img src="https://image.freepik.com/free-vector/architecture-banner-design_1168-368.jpg" alt="Architectural Banner">
+    </div>
+    <table>
+        <tr>
+            <td class="first-column"><img src="https://images.adsttc.com/media/images/5967/f0e9/b22e/38f0/4900/004a/large_jpg/Exterior_411-RT.jpg?1499984096" alt="Building 1"></td>
+            <td class="middle-column text-content">Architectural design blends form and function, capturing cultural and historical essence.</td>
+            <td class="last-column"><img src="https://images.adsttc.com/media/images/5967/f0e9/b22e/38f0/4900/004a/large_jpg/Exterior_411-RT.jpg?1499984096" alt="Building 2"></td>
+        </tr>
+        <tr>
+            <td class="first-column"><img src="https://www.constructupdate.com/wp-content/uploads/2021/12/building-structure-min.jpg" alt="Structure 1"></td>
+            <td class="middle-column text-content">Modern structures emphasize sustainability, utilizing innovative materials and techniques.</td>
+            <td class="last-column"><img src="https://www.constructupdate.com/wp-content/uploads/2021/12/building-structure-min.jpg" alt="Structure 2"></td>
+        </tr>
+    </table>
 </body>
-
 </html>
